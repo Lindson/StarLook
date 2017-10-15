@@ -1,0 +1,108 @@
+/*
+PERSONALIZANDO O BOOTSTRAP
+inforservice-ce.com.br 
+*/
+
+/* CLASSES NOVAS CRIADAS PARA O PROJETO */
+
+#topo{
+
+min-height: 100px;
+background-color: #e861d3;
+color: #fff;
+    
+}
+.navbar-inverse{
+    background-color: #4d001f;
+    border-color: #080808;
+    border-radius: 0;
+}
+#rodape{
+     
+ min-height: 150px;
+ background-color: #e861d3;  
+color: #fff;     
+}
+.btn-rosa{
+    color:#FFF;
+    background-color: #e861d3;
+}
+.btn-rosa:hover{
+    color: #FFF;
+    background-color: #18010b;
+}
+.preco{
+    font-weight: bolder;
+    color: #d11010;
+}
+#conteudo{
+    
+   min-height: 450px; 
+}
+
+#lateral{
+    
+   border-right: 1px solid #adadad;
+   height: 100%;
+  }
+
+  .transparente{
+   opacity: 0.9;   
+      
+  }
+  .thumbnail{
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px #adadad;
+  }
+  .pagination > li > a:hover{
+      background-color: #e861d3;
+      color: #fff;
+  }
+
+/* CLASSES OVERRIDE DO BOOTSTRAP para personalização*/
+
+/* navbar e menu navbar */
+.navbar-inverse{
+    border-radius: 0;
+    
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+    
+  color: #fff;
+  font-size: 16px;  
+    
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    
+ background-color: #000;
+ border-radius: 10px;
+ color: #eb9316;
+    
+}
+
+/* menu lateral com list group*/
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    
+   background-color: #4d001f; 
+    
+}
+
+a.list-group-item:hover{
+    
+    background-color: #4d001f;;
+     color: #FFF;
+     
+    
+}
+
+a.list-group-item{
+  
+    border: 0;
+    font-size: 16px;
+    
+    
+}
+
