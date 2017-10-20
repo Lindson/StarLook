@@ -3,9 +3,9 @@
 
 class Config {
    /***INFORMAÇÃO DO BANCO DE DADOS*/
-   const BANCO_HOST = "starlook-db.mysql.uhserver.com",
+   const BANCO_HOST = "uol.uhserver.com",
          BANCO_USER = "lindson",
-         BANCO_SENHA = "Ll360360*",
+         BANCO_SENHA = "",
          BANCO_BD = "starlook_db",
          BANCO_PREFIX = "sl_",
          BANCO_LIM_PAG= 3;
